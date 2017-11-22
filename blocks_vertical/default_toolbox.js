@@ -315,14 +315,8 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="event_whenbroadcastreceived" id="event_whenbroadcastreceived">'+
     '</block>'+
     '<block type="event_broadcast" id="event_broadcast">'+
-      '<value name="BROADCAST_OPTION">'+
-        '<shadow type="event_broadcast_menu"></shadow>'+
-      '</value>'+
     '</block>'+
     '<block type="event_broadcastandwait" id="event_broadcastandwait">'+
-      '<value name="BROADCAST_OPTION">'+
-        '<shadow type="event_broadcast_menu"></shadow>'+
-      '</value>'+
     '</block>'+
   '</category>'+
   '<category name="Control" colour="#FFAB19" secondaryColour="#CF8B17">'+
@@ -643,5 +637,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '</block>'+
   '</category>'+
   '<category name="Data" colour="#FF8C1A" secondaryColour="#DB6E00" custom="VARIABLE">' +
+  '</category>' +
+  '<category name="More" colour="#FF6680" secondaryColour="#FF4D6A" custom="PROCEDURE">' +
   '</category>' +
   '</xml>';

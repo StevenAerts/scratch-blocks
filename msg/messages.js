@@ -136,9 +136,20 @@ Blockly.Msg.VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE = 'A variable named "%1" al
 /// alert - Tells the user that the name they entered is already in use for a procedure.
 Blockly.Msg.PROCEDURE_ALREADY_EXISTS = 'A procedure named "%1" already exists.';
 
+// Custom procedure creation
+/// button text - Text on the button used to launch the procedure creation dialogue.
+Blockly.Msg.NEW_PROCEDURE = 'Make a Block...';
+
 // List creation
 /// button text - Text on the button used to launch the list creation dialogue.
 Blockly.Msg.NEW_LIST = 'Create list...';
+
+// Broadcast Message creation
+/// dropdown choice - Create a new message.
+Blockly.Msg.NEW_BROADCAST_MESSAGE = 'New message...';
+/// default broadcast message name
+/// (default option in broadcast message dropdown menus)
+Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
 
 // Variable deletion.
 /// confirm -  Ask the user to confirm their deletion of multiple uses of a variable.
