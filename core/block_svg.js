@@ -755,6 +755,10 @@ Blockly.BlockSvg.prototype.showContextMenu_ = function(e) {
 
   menuOptions.push(Blockly.ContextMenu.blockHelpOption(block));
 
+  if(this.workspace.options.collapse) {
+    menuOptions.push(Blockly.ContextMenu.wsExpandOption(block.isCollapsed(), [block] ));
+    menuOptions.push(Blockly.ContextMenu.wsCollapseOption(!block.isCollapsed(), [block] ));
+  }
   // Allow the block to add or modify menuOptions.
   if (this.customContextMenu) {
     this.customContextMenu(menuOptions);
