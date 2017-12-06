@@ -529,37 +529,37 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '</block>'+
     '<block type="operator_lt" id="operator_lt">'+
       '<value name="OPERAND1">'+
-        '<shadow type="text">'+
-          '<field name="TEXT"></field>'+
+        '<shadow type="math_number">'+
+          '<field name="NUM"></field>'+
         '</shadow>'+
       '</value>'+
       '<value name="OPERAND2">'+
-        '<shadow type="text">'+
-          '<field name="TEXT"></field>'+
+        '<shadow type="math_number">'+
+          '<field name="NUM"></field>'+
         '</shadow>'+
       '</value>'+
     '</block>'+
     '<block type="operator_equals" id="operator_equals">'+
       '<value name="OPERAND1">'+
-        '<shadow type="text">'+
-          '<field name="TEXT"></field>'+
+        '<shadow type="math_number">'+
+          '<field name="NUM"></field>'+
         '</shadow>'+
       '</value>'+
       '<value name="OPERAND2">'+
-        '<shadow type="text">'+
-          '<field name="TEXT"></field>'+
+        '<shadow type="math_number">'+
+          '<field name="NUM"></field>'+
         '</shadow>'+
       '</value>'+
     '</block>'+
     '<block type="operator_gt" id="operator_gt">'+
       '<value name="OPERAND1">'+
-        '<shadow type="text">'+
-          '<field name="TEXT"></field>'+
+        '<shadow type="math_number">'+
+          '<field name="NUM"></field>'+
         '</shadow>'+
       '</value>'+
       '<value name="OPERAND2">'+
-        '<shadow type="text">'+
-          '<field name="TEXT"></field>'+
+        '<shadow type="math_number">'+
+          '<field name="NUM"></field>'+
         '</shadow>'+
       '</value>'+
     '</block>'+

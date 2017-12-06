@@ -1,7 +1,7 @@
 {
 	"@metadata": {
 		"author": "Ellen Spertus <ellen.spertus@gmail.com>",
-		"lastupdated": "2017-10-13 14:59:54.128995",
+		"lastupdated": "2017-11-22 19:20:15.859727",
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
@@ -35,7 +35,10 @@
 	"VARIABLE_ALREADY_EXISTS": "A variable named '%1' already exists.",
 	"VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE": "A variable named '%1' already exists for another variable of type '%2'.",
 	"PROCEDURE_ALREADY_EXISTS": "A procedure named '%1' already exists.",
+	"NEW_PROCEDURE": "Make a Block...",
 	"NEW_LIST": "Create list...",
+	"NEW_BROADCAST_MESSAGE": "New message...",
+	"DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
 	"DELETE_VARIABLE_CONFIRMATION": "Delete %1 uses of the '%2' variable?",
 	"CANNOT_DELETE_VARIABLE_PROCEDURE": "Can't delete the variable '%1' because it's part of the definition of the function '%2'",
 	"DELETE_VARIABLE": "Delete the '%1' variable",
@@ -56,6 +59,9 @@
 	"COLOUR_BLEND_COLOUR2": "colour 2",
 	"COLOUR_BLEND_RATIO": "ratio",
 	"COLOUR_BLEND_TOOLTIP": "Blends two colours together with a given ratio (0.0 - 1.0).",
+	"COLOUR_HUE_LABEL": "Color",
+	"COLOUR_SATURATION_LABEL": "Saturation",
+	"COLOUR_BRIGHTNESS_LABEL": "Brightness",
 	"CONTROLS_REPEAT_HELPURL": "https://en.wikipedia.org/wiki/For_loop",
 	"CONTROLS_REPEAT_TITLE": "repeat %1 times",
 	"CONTROLS_REPEAT_INPUT_DO": "do",

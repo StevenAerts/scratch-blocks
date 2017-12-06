@@ -7,6 +7,26 @@
     <title>Vertical Playground</title>
 
     <script src="../blockly_uncompressed_vertical.js"></script>
+    <!-- temp for dev, avoid build script src="../javascript_compressed.js"></script-->
+    <script src="../generators/javascript.js"></script>
+    <script src="../generators/javascript/math.js"></script>
+    <script src="../generators/javascript/text.js"></script>
+    <script src="../generators/javascript/colour.js"></script>
+    <script src="../generators/javascript/control.js"></script>
+	<!--script src="../generators/javascript/event.js"></script-->
+	<!--script src="../generators/javascript/motion.js"></script-->
+	<!--script src="../generators/javascript/looks.js"></script-->
+    <script src="../generators/javascript/procedures.js"></script>
+	<script src="../generators/javascript/operators.js"></script>
+	<!--script src="../generators/javascript/pen.js"></script-->
+	<!--script src="../generators/javascript/sound.js"></script-->
+	<!--script src="../generators/javascript/sensing.js"></script-->
+	<!--script src="../generators/javascript/data.js"></script-->
+    <script src="../generators/javascript/lists.js"></script>
+    <script src="../generators/javascript/logic.js"></script>
+    <script src="../generators/javascript/loops.js"></script>
+    
+    <!-- -->
     <script src="../msg/messages.js"></script>
     <script src="../blocks_vertical/vertical_extensions.js"></script>
     <script src="../blocks_common/math.js"></script>
@@ -63,7 +83,7 @@
         workspace = Blockly.inject('blocklyDiv', {
           comments: false,
           disable: false,
-          collapse: false,
+          collapse: true,
           media: '../media/',
           readOnly: false,
           rtl: rtl,
